@@ -1,0 +1,22 @@
+<nav class="sidebar bg-dark">
+  <div class="sidebar-header text-white p-3 fw-bold">
+    <i class="bi bi-bootstrap-fill me-2"></i>My Admin
+  </div>
+  <ul class="nav flex-column">
+    <li class="nav-item">
+      <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" class="nav-link text-white">
+        <i class="bi bi-house-door me-2"></i>Dashboard
+      </a>
+    </li>
+    <li class="nav-item">
+      <a routerLink="/about" routerLinkActive="active" class="nav-link text-white">
+        <i class="bi bi-info-circle me-2"></i>About
+      </a>
+    </li>
+    <li class="nav-item">
+      <a routerLink="/contact" routerLinkActive="active" class="nav-link text-white">
+        <i class="bi bi-envelope me-2"></i>Contact
+      </a>
+    </li>
+  </ul>
+</nav>
